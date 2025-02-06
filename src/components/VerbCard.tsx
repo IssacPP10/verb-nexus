@@ -3,16 +3,16 @@ import { Verb } from "../data/types";
 
 interface VerbCardProps {
   verb: Verb;
-  color: string;
+  className?: string;
   lesson: string;
 }
 
-const VerbCard = ({ verb, color, lesson }: VerbCardProps) => {
+const VerbCard = ({ verb, className, lesson }: VerbCardProps) => {
   return (
-    <div className={`bg-white rounded-lg shadow-md p-4 border-l-4 border-${color} hover:shadow-lg transition-shadow`}>
+    <div className={`bg-white rounded-lg shadow-md p-4 border-l-4 ${className} hover:shadow-lg transition-shadow`}>
       <div className="mb-2 flex justify-between items-start">
         <div>
-          <h3 className="text-xl font-bold text-blue-600">{verb.base}</h3>
+          <h3 className="text-lg font-bold text-black uppercase">{verb.base}</h3>
           <p className="text-sm text-gray-600 italic">{verb.meaning}</p>
           <div className="flex items-center mt-1 text-xs text-gray-500">
             <BookOpen className="h-4 w-4 mr-1" />

@@ -77,7 +77,7 @@ const Level4 = () => {
             <VerbCard 
               key={verb.base} 
               verb={verb} 
-              color="level4"
+              className="border-black/70"
               lesson={verb.lesson}
             />
           ))}

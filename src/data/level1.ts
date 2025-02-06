@@ -1,58 +1,71 @@
-import { VerbData } from './types';
+import { VerbData } from "./types";
 
 export const level1Data: VerbData = {
   regular: [
-    {
-      base: "study",
-      meaning: "estudiar",
-      simplePast: "studied",
-      pastParticiple: "studied",
-      isRegular: true,
-      lesson: "1-2",
-      examples: {
-        base: "I study English every day",
-        simplePast: "I studied English yesterday",
-        pastParticiple: "I have studied English for 2 years"
-      }
-    },
     {
       base: "work",
       meaning: "trabajar",
       simplePast: "worked",
       pastParticiple: "worked",
       isRegular: true,
-      lesson: "1-2",
+      lesson: "1-10",
       examples: {
         base: "I work at a company",
         simplePast: "She worked late last night",
-        pastParticiple: "They have worked here for years"
-      }
+        pastParticiple: "They have worked here for years",
+      },
     },
     {
-      base: "play",
-      meaning: "jugar",
-      simplePast: "played",
-      pastParticiple: "played",
+      base: "check",
+      meaning: "revisar / checar",
+      simplePast: "checked",
+      pastParticiple: "checked",
       isRegular: true,
-      lesson: "1-2",
+      lesson: "1-10",
       examples: {
-        base: "Children play in the park",
-        simplePast: "We played soccer yesterday",
-        pastParticiple: "I have played this game before"
-      }
+        base: "I check my emails every morning.",
+        simplePast: "I checked the report last night.",
+        pastParticiple: "I have checked all the documents.",
+      },
     },
     {
-      base: "talk",
-      meaning: "hablar",
-      simplePast: "talked",
-      pastParticiple: "talked",
+      base: "help",
+      meaning: "ayudar",
+      simplePast: "helped",
+      pastParticiple: "helped",
       isRegular: true,
-      lesson: "1-2",
+      lesson: "1-10",
       examples: {
-        base: "We talk every day",
-        simplePast: "They talked for hours",
-        pastParticiple: "We have talked about this"
-      }
+        base: "I help my friends with their homework.",
+        simplePast: "I helped my mom clean the house yesterday.",
+        pastParticiple: "I have helped many people during my career.",
+      },
+    },
+    {
+      base: "cook",
+      meaning: "cocinar",
+      simplePast: "cooked",
+      pastParticiple: "cooked",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I cook dinner for my family every night.",
+        simplePast: "I cooked a delicious meal yesterday.",
+        pastParticiple: "I have cooked many recipes over the years.",
+      },
+    },
+    {
+      base: "watch",
+      meaning: "ver / observar / vigilar",
+      simplePast: "watched",
+      pastParticiple: "watched",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I watch movies every weekend.",
+        simplePast: "I watched a great documentary last night.",
+        pastParticiple: "I have watched that series before.",
+      },
     },
     {
       base: "walk",
@@ -60,53 +73,157 @@ export const level1Data: VerbData = {
       simplePast: "walked",
       pastParticiple: "walked",
       isRegular: true,
-      lesson: "1-2",
+      lesson: "1-10",
       examples: {
-        base: "I walk to school",
-        simplePast: "She walked home",
-        pastParticiple: "They have walked five miles"
-      }
-    }
+        base: "I walk to the park every morning.",
+        simplePast: "I walked to the store yesterday.",
+        pastParticiple: "I have walked around the city for hours.",
+      },
+    },
+    {
+      base: "play",
+      meaning: "jugar",
+      simplePast: "played",
+      pastParticiple: "played",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "Children play in the park",
+        simplePast: "We played soccer yesterday",
+        pastParticiple: "I have played this game before",
+      },
+    },
+    {
+      base: "listen",
+      meaning: "escuchar",
+      simplePast: "listened",
+      pastParticiple: "listened",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I listen to music every morning.",
+        simplePast: "I listened to the news on the radio yesterday.",
+        pastParticiple: "I have listened to that podcast several times.",
+      },
+    },
   ],
   irregular: [
     {
-      base: "begin",
-      meaning: "comenzar",
-      simplePast: "began",
-      pastParticiple: "begun",
+      base: "run",
+      meaning: "correr",
+      simplePast: "ran",
+      pastParticiple: "run",
       isRegular: false,
       lesson: "1-2",
       examples: {
-        base: "I begin my classes at 8 AM",
-        simplePast: "I began learning English last year",
-        pastParticiple: "I have begun to understand English better"
-      }
+        base: "I run every morning to stay fit.",
+        simplePast: "I ran to the store yesterday.",
+        pastParticiple: "I have run three marathons so far.",
+      },
     },
     {
-      base: "break",
-      meaning: "romper",
-      simplePast: "broke",
-      pastParticiple: "broken",
+      base: "write",
+      meaning: "escribir",
+      simplePast: "wrote",
+      pastParticiple: "written",
       isRegular: false,
       lesson: "1-2",
       examples: {
-        base: "Don't break the rules",
-        simplePast: "He broke his promise",
-        pastParticiple: "The window has been broken"
-      }
+        base: "I write in my journal every night.",
+        simplePast: "I wrote a letter to my friend yesterday.",
+        pastParticiple: "I have written many books over the years.",
+      },
     },
     {
-      base: "bring",
-      meaning: "traer",
-      simplePast: "brought",
-      pastParticiple: "brought",
+      base: "get",
+      meaning: "obtener / conseguir",
+      simplePast: "got",
+      pastParticiple: "gotten",
       isRegular: false,
       lesson: "1-2",
       examples: {
-        base: "Please bring your books",
-        simplePast: "She brought lunch for everyone",
-        pastParticiple: "I have brought my passport"
-      }
+        base: "I get the books from the shelf.",
+        simplePast: "I got a new phone yesterday.",
+        pastParticiple: "I have gotten many compliments on my work.",
+      },
+    },
+    {
+      base: "go",
+      meaning: "ir",
+      simplePast: "went",
+      pastParticiple: "gone",
+      isRegular: false,
+      lesson: "1-2",
+      examples: {
+        base: "I go to the gym every morning.",
+        simplePast: "They went to the park yesterday.",
+        pastParticiple: "I have gone to that restaurant before.",
+      },
+    },
+    {
+      base: "have",
+      meaning: "tener",
+      simplePast: "had",
+      pastParticiple: "had",
+      isRegular: false,
+      lesson: "1-2",
+      examples: {
+        base: "I have a meeting at 10 AM.",
+        simplePast: "I had a great time at the concert last night.",
+        pastParticiple: "I have had enough coffee for today.",
+      },
+    },
+    {
+      base: "take",
+      meaning: "tomar / llevar",
+      simplePast: "took",
+      pastParticiple: "taken",
+      isRegular: false,
+      lesson: "3-4",
+      examples: {
+        base: "I take the bus to work every morning.",
+        simplePast: "She took the book from the shelf.",
+        pastParticiple: "I have taken the test already.",
+      },
+    },
+    {
+      base: "eat",
+      meaning: "comer",
+      simplePast: "ate",
+      pastParticiple: "eaten",
+      isRegular: false,
+      lesson: "3-4",
+      examples: {
+        base: "I eat breakfast at 7 AM every day.",
+        simplePast: "I ate pizza for dinner last night.",
+        pastParticiple: "I have eaten sushi many times.",
+      },
+    },
+    {
+      base: "do",
+      meaning: "hacer",
+      simplePast: "did",
+      pastParticiple: "done",
+      isRegular: false,
+      lesson: "3-4",
+      examples: {
+        base: "I do my homework after school.",
+        simplePast: "I did my chores yesterday.",
+        pastParticiple: "I have done all my tasks for today.",
+      },
+    },
+    {
+      base: "drink",
+      meaning: "beber",
+      simplePast: "drank",
+      pastParticiple: "drunk",
+      isRegular: false,
+      lesson: "3-4",
+      examples: {
+        base: "I drink water every morning.",
+        simplePast: "I drank coffee earlier today.",
+        pastParticiple: "I have drunk too much soda lately.",
+      },
     },
     {
       base: "buy",
@@ -114,25 +231,12 @@ export const level1Data: VerbData = {
       simplePast: "bought",
       pastParticiple: "bought",
       isRegular: false,
-      lesson: "1-2",
+      lesson: "3-4",
       examples: {
-        base: "I buy groceries every week",
-        simplePast: "They bought a new car",
-        pastParticiple: "Have you bought the tickets?"
-      }
+        base: "I buy groceries every Saturday.",
+        simplePast: "I bought a new jacket yesterday.",
+        pastParticiple: "I have bought a lot of books this month.",
+      },
     },
-    {
-      base: "come",
-      meaning: "venir",
-      simplePast: "came",
-      pastParticiple: "come",
-      isRegular: false,
-      lesson: "1-2",
-      examples: {
-        base: "They come to visit often",
-        simplePast: "He came to the party",
-        pastParticiple: "Summer has come early this year"
-      }
-    }
-  ]
+  ],
 };

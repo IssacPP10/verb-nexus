@@ -11,8 +11,7 @@ const Level1 = () => {
   const [selectedLesson, setSelectedLesson] = useState("all");
 
   const allVerbs = useMemo(() => {
-    return [...level1Data.regular.map(v => ({ ...v, lesson: "1-2" })), 
-            ...level1Data.irregular.map(v => ({ ...v, lesson: "1-2" }))];
+    return [...level1Data.regular, ...level1Data.irregular];
   }, []);
 
   const filteredVerbs = useMemo(() => {
@@ -78,7 +77,7 @@ const Level1 = () => {
             <VerbCard 
               key={verb.base} 
               verb={verb} 
-              color="level1" 
+              className="border-blue-500/70" 
               lesson={verb.lesson}
             />
           ))}
