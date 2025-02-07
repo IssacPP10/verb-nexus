@@ -64,7 +64,7 @@ const Clubs = () => {
             <VerbCard 
               key={verb.base} 
               verb={verb} 
-              color="clubs"
+              className="clubs"
               lesson={verb.lesson}
             />
           ))}

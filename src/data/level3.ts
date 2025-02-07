@@ -1,138 +1,327 @@
-import { VerbData } from './types';
+import { VerbData } from "./types";
 
 export const level3Data: VerbData = {
   regular: [
     {
-      base: "accept",
-      meaning: "aceptar",
-      simplePast: "accepted",
-      pastParticiple: "accepted",
+      base: "ask for advice",
+      meaning: "pedir consejo",
+      simplePast: "asked for advice",
+      pastParticiple: "asked for advice",
       isRegular: true,
-      lesson: "5-6",
+      lesson: "1-2",
       examples: {
-        base: "I accept your apology",
-        simplePast: "She accepted the job offer",
-        pastParticiple: "They have accepted our proposal"
-      }
+        base: "I ask for advice when I face difficult decisions.",
+        simplePast: "She asked for advice about her career yesterday.",
+        pastParticiple: "They have asked for advice from several experts.",
+      },
     },
     {
-      base: "arrive",
-      meaning: "llegar",
-      simplePast: "arrived",
-      pastParticiple: "arrived",
+      base: "count on",
+      meaning: "contar con (alguien o algo)",
+      simplePast: "counted on",
+      pastParticiple: "counted on",
       isRegular: true,
-      lesson: "5-6",
+      lesson: "3-4",
       examples: {
-        base: "I arrive at work at 9 AM",
-        simplePast: "He arrived late to the meeting",
-        pastParticiple: "We have arrived safely"
-      }
+        base: "I count on my friends for support.",
+        simplePast: "We counted on him to lead the project.",
+        pastParticiple: "They have always counted on their family.",
+      },
     },
     {
-      base: "believe",
-      meaning: "creer",
-      simplePast: "believed",
-      pastParticiple: "believed",
+      base: "look at",
+      meaning: "mirar",
+      simplePast: "looked at",
+      pastParticiple: "looked at",
       isRegular: true,
       lesson: "5-6",
       examples: {
-        base: "I believe in hard work",
-        simplePast: "She believed in his story",
-        pastParticiple: "They have believed in their dreams"
-      }
+        base: "I look at the stars every night.",
+        simplePast: "She looked at the painting for a long time.",
+        pastParticiple: "They have looked at all the options carefully.",
+      },
     },
     {
-      base: "decide",
-      meaning: "decidir",
-      simplePast: "decided",
-      pastParticiple: "decided",
+      base: "suffer from",
+      meaning: "sufrir de (problemas de salud)",
+      simplePast: "suffered from",
+      pastParticiple: "suffered from",
       isRegular: true,
-      lesson: "5-6",
+      lesson: "7-8",
       examples: {
-        base: "I decide to study abroad",
-        simplePast: "He decided to change his career",
-        pastParticiple: "They have decided to move"
-      }
+        base: "I suffer from allergies every spring.",
+        simplePast: "She suffered from a cold last week.",
+        pastParticiple: "They have suffered from back pain for years.",
+      },
     },
     {
-      base: "enjoy",
-      meaning: "disfrutar",
-      simplePast: "enjoyed",
-      pastParticiple: "enjoyed",
+      base: "ask (someone) out",
+      meaning: "invitar a salir",
+      simplePast: "asked (someone) out",
+      pastParticiple: "asked (someone) out",
       isRegular: true,
-      lesson: "5-6",
+      lesson: "11-12",
       examples: {
-        base: "I enjoy reading books",
-        simplePast: "She enjoyed the concert",
-        pastParticiple: "We have enjoyed our vacation"
-      }
+        base: "I asked her out to dinner last night.",
+        simplePast: "He asked his colleague out for coffee.",
+        pastParticiple:
+          "She has asked him out several times, but he hasn't responded.",
+      },
+    },
+    {
+      base: "burn out",
+      meaning: "fundirse (foco), consumirse (vela o combustible)",
+      simplePast: "burned out",
+      pastParticiple: "burned out",
+      isRegular: true,
+      lesson: "11-12",
+      examples: {
+        base: "The lightbulb burns out after a few months of use.",
+        simplePast: "The candle burned out before the party ended.",
+        pastParticiple: "The engine has burned out due to lack of maintenance.",
+      },
+    },
+    {
+      base: "drop off",
+      meaning: "dejar (algo/alguien) en algun lugar",
+      simplePast: "dropped off",
+      pastParticiple: "dropped off",
+      isRegular: true,
+      lesson: "11-12",
+      examples: {
+        base: "I drop off my kids at school every morning.",
+        simplePast: "She dropped off the package at the post office yesterday.",
+        pastParticiple: "He has dropped off his car at the repair shop.",
+      },
+    },
+    {
+      base: "settle down",
+      meaning: "calmarse / establecerse",
+      simplePast: "settled down",
+      pastParticiple: "settled down",
+      isRegular: true,
+      lesson: "13-14",
+      examples: {
+        base: "After a long day, I like to settle down with a good book.",
+        simplePast: "They settled down in a quiet town after their travels.",
+        pastParticiple:
+          "He has settled down in his new home after moving last year.",
+      },
     },
   ],
   irregular: [
     {
-      base: "choose",
-      meaning: "elegir",
-      simplePast: "chose",
-      pastParticiple: "chosen",
+      base: "be over",
+      meaning: "terminarse",
+      simplePast: "was / were over",
+      pastParticiple: "been over",
       isRegular: false,
-      lesson: "5-6",
+      lesson: "1-2",
       examples: {
-        base: "I choose the blue one",
-        simplePast: "He chose the wrong path",
-        pastParticiple: "Have you chosen a restaurant yet?"
-      }
+        base: "The meeting is over now.",
+        simplePast: "The concert was over by 10 PM.",
+        pastParticiple: "The event has been over for hours.",
+      },
     },
     {
-      base: "drink",
-      meaning: "beber",
-      simplePast: "drank",
-      pastParticiple: "drunk",
+      base: "come over",
+      meaning: "venir (visitar de manera casual)",
+      simplePast: "came over",
+      pastParticiple: "come over",
       isRegular: false,
-      lesson: "5-6",
+      lesson: "1-2",
       examples: {
-        base: "I drink coffee every morning",
-        simplePast: "She drank too much soda",
-        pastParticiple: "They have drunk all the juice"
-      }
+        base: "Why don't you come over for dinner tonight?",
+        simplePast: "She came over to my place last weekend.",
+        pastParticiple: "He has come over several times this month.",
+      },
     },
     {
-      base: "go",
-      meaning: "ir",
-      simplePast: "went",
-      pastParticiple: "gone",
+      base: "be fed up (with)",
+      meaning: "estar harto (de)",
+      simplePast: "was / were fed up (with)",
+      pastParticiple: "been fed up (with)",
       isRegular: false,
-      lesson: "5-6",
+      lesson: "3-4",
       examples: {
-        base: "I go to the gym regularly",
-        simplePast: "He went to the store",
-        pastParticiple: "We have gone to that restaurant before"
-      }
+        base: "I am fed up with the noise in this neighborhood.",
+        simplePast: "She was fed up with the constant delays.",
+        pastParticiple:
+          "They have been fed up with poor service for a long time.",
+      },
     },
     {
-      base: "see",
-      meaning: "ver",
-      simplePast: "saw",
-      pastParticiple: "seen",
+      base: "feel like (+ -ing verb)",
+      meaning: "tener ganas de",
+      simplePast: "felt like",
+      pastParticiple: "felt like",
       isRegular: false,
-      lesson: "5-6",
+      lesson: "3-4",
       examples: {
-        base: "I see the mountains from my window",
-        simplePast: "She saw a movie last night",
-        pastParticiple: "They have seen that play"
-      }
+        base: "I feel like going for a walk today.",
+        simplePast: "She felt like eating ice cream yesterday.",
+        pastParticiple: "I have felt like trying something new lately.",
+      },
     },
     {
-      base: "take",
-      meaning: "tomar",
-      simplePast: "took",
-      pastParticiple: "taken",
+      base: "get out (of)",
+      meaning: "salir (de algun lugar)",
+      simplePast: "got out",
+      pastParticiple: "gotten out",
       isRegular: false,
       lesson: "5-6",
       examples: {
-        base: "I take the bus to work",
-        simplePast: "He took the wrong train",
-        pastParticiple: "We have taken many photos"
-      }
+        base: "I get out of the car quickly.",
+        simplePast: "He got out of the building before the alarm went off.",
+        pastParticiple: "They have gotten out of difficult situations before.",
+      },
     },
-  ]
+    {
+      base: "go out",
+      meaning: "salir (usualmente para divertirse)",
+      simplePast: "went out",
+      pastParticiple: "gone out",
+      isRegular: false,
+      lesson: "5-6",
+      examples: {
+        base: "We go out every Friday night.",
+        simplePast: "They went out to a new restaurant last weekend.",
+        pastParticiple: "I have gone out with my friends many times.",
+      },
+    },
+    {
+      base: "make up my mind (about)",
+      meaning: "decidirme (por algo)",
+      simplePast: "made up my mind",
+      pastParticiple: "made up my mind",
+      isRegular: false,
+      lesson: "7-8",
+      examples: {
+        base: "I need to make up my mind about where to travel this summer.",
+        simplePast: "She made up her mind about the job offer yesterday.",
+        pastParticiple: "He has made up his mind to start a new career.",
+      },
+    },
+    {
+      base: "take care of",
+      meaning: "cuidar de",
+      simplePast: "took care of",
+      pastParticiple: "taken care of",
+      isRegular: false,
+      lesson: "7-8",
+      examples: {
+        base: "I take care of my pets every day.",
+        simplePast: "She took care of her grandmother last weekend.",
+        pastParticiple:
+          "He has taken care of all the arrangements for the event.",
+      },
+    },
+    {
+      base: "throw away",
+      meaning: "deshacerse de / tirar a la basura",
+      simplePast: "threw away",
+      pastParticiple: "thrown away",
+      isRegular: false,
+      lesson: "9-10",
+      examples: {
+        base: "I throw away the trash every evening.",
+        simplePast: "She threw away the old papers yesterday.",
+        pastParticiple: "They have thrown away all the expired food.",
+      },
+    },
+    {
+      base: "break up",
+      meaning: "terminar (una relacion)",
+      simplePast: "broke up",
+      pastParticiple: "broken up",
+      isRegular: false,
+      lesson: "9-10",
+      examples: {
+        base: "They break up after a long argument.",
+        simplePast: "She broke up with him last week.",
+        pastParticiple: "He has broken up with his partner several times.",
+      },
+    },
+    {
+      base: "break down",
+      meaning: "descomponerse",
+      simplePast: "broke down",
+      pastParticiple: "broken down",
+      isRegular: false,
+      lesson: "11-12",
+      examples: {
+        base: "The car breaks down on the highway.",
+        simplePast: "The machine broke down during the production.",
+        pastParticiple: "The engine has broken down multiple times this year.",
+      },
+    },
+    {
+      base: "go through",
+      meaning: "pasar por / atravesar (situaciones dificiles)",
+      simplePast: "went through",
+      pastParticiple: "gone through",
+      isRegular: false,
+      lesson: "11-12",
+      examples: {
+        base: "I am going through a tough time at work.",
+        simplePast: "She went through a lot of stress last year.",
+        pastParticiple:
+          "They have gone through many challenges in their lives.",
+      },
+    },
+    {
+      base: "get ahead",
+      meaning: "salir adelante / progresar",
+      simplePast: "got ahead",
+      pastParticiple: "gotten ahead",
+      isRegular: false,
+      lesson: "13-14",
+      examples: {
+        base: "He works hard to get ahead in his career.",
+        simplePast: "She got ahead in her studies last semester.",
+        pastParticiple:
+          "They have gotten ahead thanks to their consistent efforts.",
+      },
+    },
+    {
+      base: "get into",
+      meaning: "entrar",
+      simplePast: "got into",
+      pastParticiple: "gotten into",
+      isRegular: false,
+      lesson: "13-14",
+      examples: {
+        base: "She wants to get into the university next year.",
+        simplePast: "He got into trouble with his parents last weekend.",
+        pastParticiple: "They have gotten into a new project together.",
+      },
+    },
+    {
+      base: "get together",
+      meaning: "entrar",
+      simplePast: "got together",
+      pastParticiple: "gotten together",
+      isRegular: false,
+      lesson: "13-14",
+      examples: {
+        base: "We should get together for coffee sometime.",
+        simplePast: "They got together to celebrate her birthday.",
+        pastParticiple:
+          "We have gotten together every summer for the past five years.",
+      },
+    },
+    {
+      base: "go off",
+      meaning: "sonar(alarma) / activarse",
+      simplePast: "went off",
+      pastParticiple: "gone off",
+      isRegular: false,
+      lesson: "13-14",
+      examples: {
+        base: "The alarm goes off every morning at 7 AM.",
+        simplePast: "The fire alarm went off during the night.",
+        pastParticiple: "The alarm has gone off twice today.",
+      },
+    },
+  ],
 };
