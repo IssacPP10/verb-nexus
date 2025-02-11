@@ -1,20 +1,111 @@
-import { VerbData } from './types';
+import { VerbData } from "./types";
 
 export const level2Data: VerbData = {
   regular: [
+    {
+      base: "answer",
+      meaning: "contestar",
+      simplePast: "answered",
+      pastParticiple: "answered",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I answer emails every morning.",
+        simplePast: "I answered the phone call yesterday.",
+        pastParticiple: "I have answered all the questions in the test.",
+      },
+    },
+    {
+      base: "arrive",
+      meaning: "llegar",
+      simplePast: "arrived",
+      pastParticiple: "arrived",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I arrive at work at 9 AM every day.",
+        simplePast: "I arrived at the party late last night.",
+        pastParticiple: "I have arrived at the airport just now.",
+      },
+    },
+    {
+      base: "ask",
+      meaning: "preguntar / pedir",
+      simplePast: "asked",
+      pastParticiple: "asked",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I ask for help when I dont understand something.",
+        simplePast: "I asked her for a favor yesterday.",
+        pastParticiple: "I have asked for directions to the museum.",
+      },
+    },
+    {
+      base: "believe",
+      meaning: "creer",
+      simplePast: "believed",
+      pastParticiple: "believed",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I believe in hard work and dedication.",
+        simplePast: "I believed his story when he told me.",
+        pastParticiple: "I have believed in his abilities for a long time.",
+      },
+    },
+    {
+      base: "brush",
+      meaning: "cepillar",
+      simplePast: "brushed",
+      pastParticiple: "brushed",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I brush my teeth every morning and night.",
+        simplePast: "I brushed my hair before going to the party.",
+        pastParticiple: "I have brushed the dog already.",
+      },
+    },
+    {
+      base: "clean",
+      meaning: "limpiar",
+      simplePast: "cleaned",
+      pastParticiple: "cleaned",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I clean my house every Saturday.",
+        simplePast: "I cleaned the kitchen yesterday.",
+        pastParticiple: "I have cleaned the windows already.",
+      },
+    },
     {
       base: "dance",
       meaning: "bailar",
       simplePast: "danced",
       pastParticiple: "danced",
       isRegular: true,
-      lesson: "3-4",
+      lesson: "1-10",
       examples: {
-        base: "I dance salsa every weekend",
-        simplePast: "I danced all night at the party",
-        pastParticiple: "I have danced since I was a child"
-      }
-    },    
+        base: "I dance salsa every weekend.",
+        simplePast: "I danced all night at the party.",
+        pastParticiple: "I have danced since I was a child.",
+      },
+    },
+    {
+      base: "jump",
+      meaning: "saltar / brincar",
+      simplePast: "jumped",
+      pastParticiple: "jumped",
+      isRegular: true,
+      lesson: "1-10",
+      examples: {
+        base: "I jump over obstacles during my morning workout.",
+        simplePast: "I jumped high to catch the ball during the game.",
+        pastParticiple: "I have jumped into the pool many times this summer.",
+      },
+    },
   ],
   irregular: [
     {
@@ -27,8 +118,8 @@ export const level2Data: VerbData = {
       examples: {
         base: "Don't break the rules",
         simplePast: "He broke his promise",
-        pastParticiple: "The window has been broken"
-      }
-    },    
-  ]
+        pastParticiple: "The window has been broken",
+      },
+    },
+  ],
 };
