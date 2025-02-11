@@ -513,7 +513,7 @@ export const level3Data: VerbData = {
     },
     {
       base: "keep an eye on (something)",
-      meaning: "estar al pendiente / atentos de (alguien / algo)",
+      meaning: "estar al pendiente / atento de (alguien / algo)",
       simplePast: "kept an eye on",
       pastParticiple: "kept an eye on",
       isRegular: false,
