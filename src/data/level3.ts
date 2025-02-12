@@ -352,7 +352,7 @@ export const level3Data: VerbData = {
     },
     {
       base: "get together",
-      meaning: "entrar",
+      meaning: "reunirse / encontrarse",
       simplePast: "got together",
       pastParticiple: "gotten together",
       isRegular: false,

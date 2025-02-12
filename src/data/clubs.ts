@@ -65,5 +65,70 @@ export const clubsData: Verb[] = [
       simplePast: "She improved her grades this semester",
       pastParticiple: "He has improved significantly"
     }
-  }
+  },
+  {
+    base: "pick up",
+    meaning: "recoger / aprender",
+    simplePast: "picked up",
+    pastParticiple: "picked up",
+    isRegular: true,
+    lesson: "11-12",
+    examples: {
+      base: "I pick up the groceries every Sunday",
+      simplePast: "She picked up the package from the post office",
+      pastParticiple: "They have picked up new skills during the training"
+    }
+  },
+  {
+    base: "set up",
+    meaning: "instalar / preparar",
+    simplePast: "set up",
+    pastParticiple: "set up",
+    isRegular: false,
+    lesson: "11-12",
+    examples: {
+      base: "I set up the meeting room for the presentation.",
+      simplePast: "He set up the software on his computer.",
+      pastParticiple: "They have set up the new office in just two days."
+    }
+  },
+  {
+    base: "bring up",
+    meaning: "mencionar / criar",
+    simplePast: "brought up",
+    pastParticiple: "brought up",
+    isRegular: false,
+    lesson: "11-12",
+    examples: {
+      base: "I bring up new ideas during the meetings.",
+      simplePast: "She brought up a very interesting point yesterday.",
+      pastParticiple: "They have brought up the issue in every discussion."
+    }
+  },
+  {
+    base: "run into",
+    meaning: "encontrarse con alguien por casualidad",
+    simplePast: "ran into",
+    pastParticiple: "run into",
+    isRegular: false,
+    lesson: "11-12",
+    examples: {
+      base: "I run into old friends at the store sometimes.",
+      simplePast: "She ran into her teacher at the coffee shop.",
+      pastParticiple: "They have run into many problems during the project."
+    }
+  },
+  {
+    base: "turn up",
+    meaning: "aparecer / llegar",
+    simplePast: "turned up",
+    pastParticiple: "turned up",
+    isRegular: true,
+    lesson: "11-12",
+    examples: {
+      base: "I turn up to work at 9 AM every day.",
+      simplePast: "She turned up late for the meeting yesterday.",
+      pastParticiple: "They have turned up early for the concert."
+    }
+  },
 ];
