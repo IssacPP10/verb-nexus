@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, BookOpen, Users } from "lucide-react";
+import { Menu, X, BookOpen, Users, ForkKnife } from "lucide-react";
 
 const Navbar = () => {
   const location = useLocation();
@@ -49,6 +49,17 @@ const Navbar = () => {
               <Users className="h-4 w-4" />
               <span>Clubs</span>
             </Link>
+            <Link
+              to="/kitchen"
+              className={`${
+                location.pathname.includes("/kitchen")
+                  ? "text-yellow-400"
+                  : "text-gray-600"
+              } hover:text-yellow-600 transition-colors flex items-center space-x-1`}
+            >
+              <ForkKnife className="h-4 w-4" />
+              <span>Kitchen</span>
+            </Link>
           </div>
         </div>
 
@@ -79,6 +90,18 @@ const Navbar = () => {
               >
                 <Users className="h-4 w-4" />
                 <span>Clubs</span>
+              </Link>
+              <Link
+                to="/kitchen"
+                className={`${
+                  location.pathname.includes("/kitchen")
+                    ? "text-yellow-400"
+                    : "text-gray-600"
+                } hover:text-yellow-600 transition-colors flex items-center space-x-2 px-2 py-1`}
+                onClick={() => setIsOpen(false)}
+              >
+                <ForkKnife className="h-4 w-4" />
+                <span>Kitchen</span>
               </Link>
             </div>
           </div>

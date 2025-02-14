@@ -24,6 +24,7 @@ export default {
         level3: "#4B5563",
         level4: "#111827",
         clubs: "#059669",
+        kitchen: "#FFB200",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

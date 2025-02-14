@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { GraduationCap, Users } from "lucide-react";
+import { ForkKnife, GraduationCap, Users } from "lucide-react";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -38,6 +38,21 @@ const Index = () => {
               </div>
               <CardDescription>
                 Your personal English vocabulary journal. Save and review new verbs and words you learn during club sessions.
+              </CardDescription>
+            </CardHeader>
+          </Card>
+
+          <Card 
+            className="cursor-pointer hover:shadow-lg transition-all duration-500 hover:-translate-y-1 animate-float"
+            onClick={() => navigate("/kitchen")}
+          >
+            <CardHeader className="space-y-1">
+              <div className="flex items-center space-x-2">
+                <ForkKnife className="w-6 h-6 text-kitchen" />
+                <CardTitle className="text-2xl text-kitchen">Kitchen Verbs</CardTitle>
+              </div>
+              <CardDescription>
+              Your personal English vocabulary journal focused on common cooking verbs.
               </CardDescription>
             </CardHeader>
           </Card>

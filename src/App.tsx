@@ -10,6 +10,7 @@ import Level2 from "./pages/Level2";
 import Level3 from "./pages/Level3";
 import Level4 from "./pages/Level4";
 import Clubs from "./pages/Clubs";
+import Kitchen from "./pages/Kitchen"
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/level3" element={<Level3 />} />
           <Route path="/level4" element={<Level4 />} />
           <Route path="/clubs" element={<Clubs />} />
+          <Route path="/kitchen" element={<Kitchen />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
