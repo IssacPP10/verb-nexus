@@ -10,7 +10,7 @@ const Index = () => {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-center mb-12">Welcome to English Academy</h1>
+        <h1 className="text-4xl font-bold text-center mb-12">Welcome to Verb Nexus</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Card 
             className="cursor-pointer hover:shadow-lg transition-all duration-500 hover:-translate-y-1 animate-float"

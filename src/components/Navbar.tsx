@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="text-xl font-bold flex items-center space-x-2">
             <BookOpen className="h-6 w-6" />
-            <span>English Academy</span>
+            <span>Verb Nexus</span>
           </Link>
 
           {/* Mobile menu button */}
